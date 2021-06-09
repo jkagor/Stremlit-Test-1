@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd
 import time
 
-st.title('My first app')
+st.title('My second app')
 
 st.write("Here's our first attempt at using data to create a table:")
 st.write(pd.DataFrame({
