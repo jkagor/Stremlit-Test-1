@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd
 import time
 
-st.title('My second app')
+st.title('My first app')
 
 st.write("Here's our first attempt at using data to create a table:")
 st.write(pd.DataFrame({
@@ -54,6 +54,7 @@ map_data = pd.DataFrame(
 st.map(map_data)
 
 
+
 if st.checkbox('Show dataframe'):
     chart_data = pd.DataFrame(
        np.random.randn(20, 3),
@@ -61,16 +62,13 @@ if st.checkbox('Show dataframe'):
 
     chart_data
     
-    
+
     
 option = st.selectbox(
     'Which number do you like best?',
      df['first column'])
 
 'You selected: ', option
-
-
-
 
 
 'Starting a long computation...'
