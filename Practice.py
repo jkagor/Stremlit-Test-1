@@ -74,7 +74,7 @@ option = st.selectbox(
 
 
 
-'''
+"""
 
 'Starting a long computation...'
 
@@ -89,7 +89,7 @@ for i in range(100):
   time.sleep(0.1)
 
 '...and now we\'re done!'
-'''
+"""
 
 
 
